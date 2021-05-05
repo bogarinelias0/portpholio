@@ -1,0 +1,28 @@
+.titulo-central{
+    text-align: center;
+    padding-top: 11%;
+    height: 98vh;
+    color: white;
+}
+.titulo-central h1{
+    font-family: "TheRustic";
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.fondo{
+    background-image: linear-gradient(rgb(28 27 27 / 65%),rgb(0 0 0)),url('../../assets/img/01DE042-full.png');
+    height: 100vh;
+    width: 100%;
+    margin-top: -26%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+@font-face{
+    font-family: "TheRustic";
+    src: url("../../assets/fonts/TheRustic-Demo.ttf");
+
+}

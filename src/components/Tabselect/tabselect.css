@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container-all{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: -42%;
+}
+.box{
+    width: 250px;
+    height: 240px;
+    padding: 20px;
+    margin: 40px;
+    background: rgba(226, 226, 226, 0.645);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+.box:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -12px 14px 19px 0px rgb(0 0 0);
+}
+.box .icon, .box h4,.box p{
+    position: relative;
+    z-index: 1;
+    transition: all 300ms;
+      
+} 
+.box h4, .box p{
+    margin-top: 10px;
+}
+.box h4{
+    font-size: 30px;
+    transform: translateY(45px);
+    margin-bottom: 2%;
+
+}
+.box p{
+    font-size: 14px;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.box .background-hover{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+    background: linear-gradient(to bottom, rgb(248, 129, 74), rgb(255, 79, 39) );
+}
+.box:hover .background-hover{
+    width: 400px;
+    height: 400px;
+    top: -70px;
+    left: -70px;
+
+}
+.box:hover h4{
+    transform: translateY(5px);
+    color: white;
+    margin-top: 95px;
+}
+.box:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    color: white;
+}
+
+.container-box a{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+.box1{
+    background-image: url("../../assets/img/victory.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center 90px;
+}
+
+.box:hover  img .background-hover1{
+    display: block;
+}
+.box2{
+    background-image: url("../../assets/img/coach.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center 110px; 
+}
+.box3{
+    background-image: url("../../assets/img/ventacuentas.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center 110px;
+}
+.box img{transform: translateY(-70px);}
+
+
+.custom-shape-divider-bottom-1615944122 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: -1.6%;
+}
+
+.custom-shape-divider-bottom-1615944122 svg {
+    position: relative;
+    display: block;
+    width: calc(245% + 1.3px);
+    height: 268px;
+}
+
+.custom-shape-divider-bottom-1615944122 .shape-fill {
+    fill: #949494;
+}
+.custom-shape-divider-top-1615943611 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -7.5%;
+}
+
+.custom-shape-divider-top-1615943611 svg {
+    position: relative;
+    display: block;
+    width: calc(245% + 1.3px);
+    height: 200px;
+    margin-top: 0.6%;
+}
+
+.custom-shape-divider-top-1615943611 .shape-fill {
+    fill: #949494;
+}

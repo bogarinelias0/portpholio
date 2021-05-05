@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(218, 218, 218);
+
+}
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container-all{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.box{
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    margin: 40px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+.box:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -12px 14px 19px 0px rgb(0 0 0);
+}
+.box .icon, .box h4,.box p{
+    position: relative;
+    z-index: 1;
+    transition: all 300ms;
+      
+} 
+.box h4, .box p{
+    margin-top: 10px;
+}
+.box h4{
+    font-size: 30px;
+    transform: translateY(45px);
+
+}
+.box p{
+    font-size: 14px;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.box .background-hover{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    background-color: red;
+    border-radius: 100%;
+    transition: all 300ms;
+    background: linear-gradient(to bottom, rgb(248, 129, 74), rgb(255, 79, 39) )
+}
+.box:hover .background-hover{
+    width: 400px;
+    height: 400px;
+    top: -70px;
+    left: -70px;
+
+}
+.box:hover h4{
+    transform: translateY(5px);
+    color: white;
+}
+.box:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    color: white;
+}
+
+.container-box a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

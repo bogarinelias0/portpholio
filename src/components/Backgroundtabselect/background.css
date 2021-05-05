@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-tabs{
+    background-image:linear-gradient(275deg, rgb(72 72 72 / 94%),rgb(51 51 51 / 84%)), url("../../assets/img/taliyah.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

@@ -1,0 +1,93 @@
+.boxes-quest{
+    border: 2px solid black;
+    background: linear-gradient(to left, rgb(255 78 78), rgb(255 2 49) );
+    border-radius: 0 7px 7px 7px;
+    margin: 4px;
+    margin-top: 25px;
+    margin-left: 104px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow:-8px 13px 9px 0px #383232;
+    color: black;
+}
+.container-frecuent h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: fantasy;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.container-frecuent{
+    height: 100vh;
+    margin-top: -268px;
+}
+.container-frecuent p{
+    font-family: monospace;
+
+}
+
+
+/* Shape divider top
+*/
+
+.custom-shape-divider-top-1616046659 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1616046659 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 271px;
+}
+
+.custom-shape-divider-top-1616046659 .shape-fill {
+    fill: #949494;
+}
+
+/*
+End shape divider top
+*/
+
+
+/*
+Shape divider bottom
+*/
+
+.custom-shape-divider-bottom-1616048680 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: -20px;
+}
+
+.custom-shape-divider-bottom-1616048680 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 172px;
+}
+
+.custom-shape-divider-bottom-1616048680 .shape-fill {
+    fill: #949494;
+}
+
+.background-forthis{
+    background-image: linear-gradient(to left, rgb(11 0 97 / 79%), rgb(0 0 0 / 85%)),url("../../assets/img/backgroundfrequent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 0px 35px;
+}
+.title-preguntas{
+    padding-top: 65px;
+    padding-bottom: 62px;
+}
